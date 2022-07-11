@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  width: 600px;
+  margin: 50px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.ipbox {
+  padding: 10px;
+  width: 300px;
+  margin: 5px;
+}
+
+.form div {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.form div b {
+  margin: 10px 0px 0px 5px;
+  font-size: 14px;
+}
+
+.btn {
+  padding: 10px;
+  width: 325px;
+  margin: 5px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: rgb(72, 72, 72);
+  color: white;
+}
